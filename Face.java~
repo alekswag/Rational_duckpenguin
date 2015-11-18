@@ -1,0 +1,19 @@
+public class Face {
+    public static void main(String[] args){
+	String Head, Forehead, Eyes, Nose, Mouth, Tongue, Chin;
+	Head = "^^^^^^^^^^^";
+	Forehead = "I---------I";
+	Eyes = "I(o)   (o)I";
+	Nose = "I    L    I";
+	Mouth = "I_____ ___I";
+	Tongue = "I     U   I";
+	Chin = "===========";
+	Systems.out.println(Head);
+    }
+}
+	
+
+
+
+
+

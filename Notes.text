@@ -1,0 +1,42 @@
+Hw obstacles?
+Inter[] cv = {1,3,3,7};
+	Java will autobox them into their class in each slot
+
+Idea was to change parameter array from int to string
+
+Aim: CLIRPG
+	Command Line Interface Role Playing Game
+	We finna start building one
+
+	Components of an RPG? and flow?
+		
+		Also possibly the option to name ur character
+		
+		==== Class Contribution ====
+		Roles, classes, jobs
+			eg(roles): Hero, monsters
+			classes: Knights, Wizards, Rogues
+		Special Talents or just other characters w/special abilities
+			ie: magic
+		Inventory
+			Skill book
+			Armor, Weapons, access $$$ potions, foods, keys, skills
+		Stats that can change
+			HP, Magicks, Mana(for casting magicks)
+		Storyline -- Our room for creativity
+		Character Development (How stats change as u go on, discovering about urself, customization of character)
+		NPC- Non Player Character
+			Can be an enemy or friend
+			Shop Keeper
+		Damage Stats
+			Where, when, prolonged
+		Flow vvvv
+		Battle System
+			Turn based or menu to use moves
+		MAP
+		... Star wars thing
+
+Which would we start with first?
+Characters, but you need the class shells for hero or other specifics
+
+There is a Driver file on piazza, the teams will create Drivers

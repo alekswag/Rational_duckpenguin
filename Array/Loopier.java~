@@ -1,0 +1,26 @@
+public class ArrayPractice{
+    // Returns index of first occurance of target or -1 if it aint there
+    public static int linSearch(int[] a, int target){
+	for(i=0;a[i] == target;i++){
+	    return i;
+	}
+	return -1;
+    }
+
+
+    public static int linSearchR(int[] a, int target){
+
+	return 0;
+
+    }
+
+    public static void main(String[] args){
+	
+
+    }
+
+
+
+
+
+}

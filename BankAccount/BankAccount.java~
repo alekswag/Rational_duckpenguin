@@ -1,0 +1,52 @@
+/*
+; Aleksandar Shipetich
+; APCS1 pd5
+; HW09 --CMYM
+; 2015-09-29
+*/
+
+
+public class BankAccount {
+    String fullName;
+    String password;
+    int pin;
+    int accountNum;
+    float accountBal;
+
+ 
+    public BankAccount(){
+	fullName = "Nobdy";
+	password = "1234";
+	pin = 0000;
+	accountNum = 000000000;
+	accountBal = 0.0f;
+    }
+    public BankAccount(String name, String pass, int pine, int accountNumber, int accountBalance){
+	fullName = name;
+        password = pass;
+	pin = pine;
+	accountNum = accountNumber;
+	accountBal = accountBalance;
+    }
+
+    public String toString(){
+	return (fullName + ", " + password +  ", " + pin + ", " + accountNum + ", "+ accountBal + ".");
+	    }
+
+    public void depositMonies(float monies){
+	accountBal += monies;
+	    }
+    public void withdrawMonies(float monies){
+	accountBal -= monies;
+    }
+    
+    public static void main( String[] args) {
+    BankAccount aleksandar = new BankAccount("Aleksandar", "alekswag", 1999, 666666666, 100);
+    aleksandar.depositMonies(1.19f);
+    aleksandar.withdrawMonies(50.01f);
+    System.out.println(aleksandar.toString());
+    }
+
+
+    
+}

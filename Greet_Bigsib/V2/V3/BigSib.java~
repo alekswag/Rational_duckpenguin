@@ -1,0 +1,20 @@
+public class BigSib {
+    //instance vars
+    String helloMsg;
+
+    
+	public  String greet(String name){
+	    string hi;
+	    hi = helloMsg;
+	    hi += name;
+	    hi += "."; 
+	    return hi;
+		}
+    
+    	public void setHelloMsg(String message){
+	    helloMsg = message;
+
+
+
+	}
+}

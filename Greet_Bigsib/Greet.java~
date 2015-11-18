@@ -1,0 +1,23 @@
+/*
+; Aleksandar Shipetich
+; APCS1 pd5
+; HW02 -- Howdy, <VeryInterestingPerson>!
+; 2015-09-17 
+*/
+
+
+
+
+
+public class Greet {
+    public static void main(String[] args){
+	greet("Bernie Sanders");
+    }
+	public static void greet(String s){
+	    System.out.println("Hey " + s + "! How's it going?");
+	}
+
+	
+	    
+    
+}

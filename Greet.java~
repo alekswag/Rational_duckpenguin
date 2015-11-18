@@ -1,0 +1,17 @@
+/*
+; Aleksandar Shipetich
+; APCS1 pd
+; HW02 -- Howdy, Partner!
+; 2015-09-16 
+*/
+
+
+
+
+
+public class Greet {
+    public static void main(String[] args){
+	System.out.println("Wassup Dawg");
+	System.out.println("\r");
+    }
+}

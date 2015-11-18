@@ -1,0 +1,31 @@
+public class Array{
+
+    static int[] quack = new int[6];
+
+    public static void popArray(int[] aleks, int low, int upp){
+	int temp = 0;
+	for (int i =0; i < aleks.length-1 ; i++ ){
+	    aleks[i] = (int)Math.random()*10 + low;
+	}
+     
+    }
+    
+    public static String stringify(int[] aleks){
+	String shipetich = "";
+	for (int i=0; i< aleks.length-1; i++){
+	    shipetich += aleks[i]+" ";
+	}
+
+	return shipetich;
+    }
+    public static void main(String[] args){
+	popArray(quack, 10,20);
+	System.out.println(stringify(quack));
+    }
+
+
+
+
+
+
+}
